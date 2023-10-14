@@ -1,4 +1,4 @@
-(function(){
+$(document).ready(function(){
     var $imgs = $('#gallery');
     var $search = $('#filter-search');
     var cache = [];
@@ -27,4 +27,5 @@ else{
     $search.on('keyup', filter);
 }
 })();
+
 
