@@ -26,5 +26,5 @@ if('oninput' in $search[0]){
 else{
     $search.on('keyup', filter);
 }
-}());
+})();
 
